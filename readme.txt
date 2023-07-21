@@ -7,7 +7,7 @@ Date   : 21-07-2023
 
 PURPOSE OF THE MODIFICATION
 
-To modify the orginal project (see below) exchanging the SMTP
+To modify the original project (see below) exchanging the SMTP
 notifications with push notifications via the (free) Prowl service.
 
 This package aims to allow hobbyist users to receive NUT notifications
