@@ -14,6 +14,12 @@
       <porttype>dst</porttype>
       <port>25</port>
     </rule>
+    <rule id='0002'>
+      <direction>outbound</direction>
+      <protocol>tcp</protocol>
+      <porttype>dst</porttype>
+      <port>80</port>
+    </rule>
     <enabled>true</enabled>
     <required>false</required>
   </service>
