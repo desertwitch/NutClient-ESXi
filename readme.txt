@@ -1,5 +1,31 @@
 Network UPS Tools client for VMWare ESXi 5.0-8.0
-------------------------------------------------
+with modifications for push notifications via Prowl
+----------------------------------------------------
+
+Author : desertwitch (fork w/ prowl modifications)
+Date   : 21-07-2023
+
+PURPOSE OF THE MODIFICATION
+
+To modify the orginal project (see below) exchanging the SMTP
+notifications with push notifications via the (free) Prowl service.
+
+This package aims to allow hobbyist users to receive NUT notifications
+from their ESXI hypervisor without the need for complicated SMTP setups.
+
+CONFIGURATION OF THE MODIFICATION
+
+- Follow the INSTALL instructions of the original project README
+- Follow the CONFIGURATION instructions of the original project README
+
+- Reconfigure these original parameters to activate the modification :
+   UserVars.NutSendMail = 1
+   UserVars.NutMailTo = YOUR PROWL API KEY GOES HERE
+
+- When you change the values of the UserVars you MUST restart NUT client service
+  to reload the configuration.
+
+---- BASED ON THE FOLLOWING PROJECT / ORIGINAL README SEE BELOW ----
 
 Author : Rene Garcia
 Date   : 23-10-2022
