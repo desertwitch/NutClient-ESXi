@@ -25,6 +25,14 @@ CONFIGURATION OF THE MODIFICATION
 - When you change the values of the UserVars you MUST restart NUT client service
   to reload the configuration.
 
+LIMITATIONS
+
+The HTTPs behaviour of the 'wget' implementation in BusyBox is still a bit unpredictable.
+For sake of stability the push notification call is currently made via HTTP on port 80.
+
+Please therefore take into consideration that the API key is sent unencrypted and in plain-text.
+It is advisable to not re-use an API key shared with other applications, but a separate new one.
+
 ---- BASED ON THE FOLLOWING PROJECT / ORIGINAL README SEE BELOW ----
 
 Author : Rene Garcia
