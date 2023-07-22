@@ -31,7 +31,7 @@ The HTTPs behaviour of the 'wget' implementation in BusyBox is still a bit unpre
 For sake of stability the push notification call is currently made via HTTP on port 80.
 
 Please therefore take into consideration that the API key is sent unencrypted and in plain-text.
-It is advisable to not re-use an API key shared with other applications, but a separate new one.
+It is advisable to not use an API key shared with other applications, but rather make a new one.
 
 ---- BASED ON THE FOLLOWING PROJECT / ORIGINAL README SEE BELOW ----
 
